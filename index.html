@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <script src="./bower_components/jquery/dist/jquery.js"></script>
+        <script src="./stopWatch.js"></script>
+        <script src="./app.js"></script>
+    </head>
+    <body>
+        <div>
+            <div>
+                <div id="display">
+                    <span id="minutes"></span>:
+                    <span id="seconds"></span>:
+                    <span id="tenth"></span>
+                </div>
+                <h3>Lap Time</h3>
+                <div id="lap-display">
+                    <span id="lapMinutes"></span>:
+                    <span id="lapSeconds"></span>:
+                    <span id="lapTenth"></span>
+                </div>
+
+                <div>
+                    <button id="start-btn">Start</button>
+                    <button id="stop-btn">Stop</button>
+                    <button id="clear-btn">Clear</button>
+                </div>
+                <div>
+                    <button id="lap-btn">Lap</button>
+                </div>
+            </div>
+            <ol id="laps">
+
+            </ol>
+        </div>
+    </body>
+</html>
