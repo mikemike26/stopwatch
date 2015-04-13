@@ -1,3 +1,3 @@
 # stopwatch
 
-This is a coding activity for a techincal interview
+simple unstyled stopwatch activity
